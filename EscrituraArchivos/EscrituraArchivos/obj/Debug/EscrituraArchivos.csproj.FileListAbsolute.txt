@@ -1,0 +1,8 @@
+D:\zazuk\GitHub\EscrituraArchivos\EscrituraArchivos\EscrituraArchivos\bin\Debug\EscrituraArchivos.exe.config
+D:\zazuk\GitHub\EscrituraArchivos\EscrituraArchivos\EscrituraArchivos\bin\Debug\EscrituraArchivos.exe
+D:\zazuk\GitHub\EscrituraArchivos\EscrituraArchivos\EscrituraArchivos\bin\Debug\EscrituraArchivos.pdb
+D:\zazuk\GitHub\EscrituraArchivos\EscrituraArchivos\EscrituraArchivos\obj\Debug\EscrituraArchivos.csproj.AssemblyReference.cache
+D:\zazuk\GitHub\EscrituraArchivos\EscrituraArchivos\EscrituraArchivos\obj\Debug\EscrituraArchivos.csproj.SuggestedBindingRedirects.cache
+D:\zazuk\GitHub\EscrituraArchivos\EscrituraArchivos\EscrituraArchivos\obj\Debug\EscrituraArchivos.csproj.CoreCompileInputs.cache
+D:\zazuk\GitHub\EscrituraArchivos\EscrituraArchivos\EscrituraArchivos\obj\Debug\EscrituraArchivos.exe
+D:\zazuk\GitHub\EscrituraArchivos\EscrituraArchivos\EscrituraArchivos\obj\Debug\EscrituraArchivos.pdb
