@@ -27,6 +27,11 @@ namespace EscrituraArchivos
                 sw.WriteLine(line);
             }
 
+            Console.Write("Escriba su Nombre: ");
+            string nombre = Console.ReadLine();
+
+            sw.WriteLine(nombre);
+
             //cerrar el archivo
             sw.Close();
 
