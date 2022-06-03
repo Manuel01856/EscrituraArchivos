@@ -9,31 +9,31 @@ namespace EscrituraArchivos
 {
     internal class Program
     {
+        public class Pokemon
+        {
+            public string nombre;
+            public int num_pokedex;
+
+            public Pokemon(string nombre, int num_pokedex)
+            {
+                this.nombre = nombre;
+                this.num_pokedex = num_pokedex;
+            }
+        }
         static void Main(string[] args)
         {
-            StreamWriter sw = new StreamWriter("ejemplo.txt",true);
-            //si el archivo no existe lo creara o en el caso de que exista lo sobrescribe
-
-            string[] lines =
-            {
-                "Esto es la primera linea",
-                "Esto es la segunda linea",
-                "Esto es la tercer linea"
-            };
-            //recorre el arreglo para escribir las lineas en el archivo
-            foreach (string line in lines)
-            {
-                //escribir en el archivo
-                sw.WriteLine(line);
-            }
-
-            Console.Write("Escriba su Nombre: ");
+            StreamWriter sw = new StreamWriter("Pokedex.txt", true);
+            
+            Console.Write("Escriba el nombre del pokemon: ");
             string nombre = Console.ReadLine();
-
-            sw.WriteLine(nombre);
-
-            //cerrar el archivo
+            Console.Write("Escriba el número de pokedex: ");
+            int num_pokedex = int.Parse(Console.ReadLine());
+            
+            Pokemon newPokemon = new Pokemon(nombre, num_pokedex);
+            
+            sw.WriteLine(newPokemon.nombre + " " + newPokemon.num_pokedex);
             sw.Close();
+            
 
             Console.WriteLine("Escribiendo .... ");
             Console.ReadLine();
